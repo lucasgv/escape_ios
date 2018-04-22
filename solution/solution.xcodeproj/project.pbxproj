@@ -1,0 +1,1149 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		82ABB29C208C2EDF006DA834 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB29B208C2EDF006DA834 /* GoogleService-Info.plist */; };
+		82ABB2A0208C4B0F006DA834 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ABB29F208C4B0F006DA834 /* Group.swift */; };
+		82ABB2A2208C4B18006DA834 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ABB2A1208C4B18006DA834 /* User.swift */; };
+		82ABB2A4208C4B66006DA834 /* Mappable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ABB2A3208C4B65006DA834 /* Mappable.swift */; };
+		82ABB2FB208C684A006DA834 /* DINNextLTPro-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2A7208C6836006DA834 /* DINNextLTPro-BoldItalic.otf */; };
+		82ABB2FC208C684A006DA834 /* DINNextLTPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2A8208C6837006DA834 /* DINNextLTPro-Medium.otf */; };
+		82ABB2FD208C684A006DA834 /* DINPro-CondBoldIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2A9208C6837006DA834 /* DINPro-CondBoldIta.otf */; };
+		82ABB2FE208C684A006DA834 /* DINCond-LightExpert.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2AA208C6837006DA834 /* DINCond-LightExpert.otf */; };
+		82ABB2FF208C684A006DA834 /* DINNextLTPro-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2AB208C6837006DA834 /* DINNextLTPro-Italic.otf */; };
+		82ABB300208C684A006DA834 /* DINPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2AC208C6837006DA834 /* DINPro-Medium.otf */; };
+		82ABB301208C684A006DA834 /* DINCond-MediumAlternate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2AD208C6838006DA834 /* DINCond-MediumAlternate.otf */; };
+		82ABB302208C684A006DA834 /* DINNextLTPro-Condensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2AE208C6838006DA834 /* DINNextLTPro-Condensed.otf */; };
+		82ABB303208C684A006DA834 /* DINPro-CondBlackIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2AF208C6838006DA834 /* DINPro-CondBlackIta.otf */; };
+		82ABB304208C684A006DA834 /* DIN-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B0208C6838006DA834 /* DIN-BoldItalic.otf */; };
+		82ABB305208C684A006DA834 /* DIN-Euro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B1208C6838006DA834 /* DIN-Euro.otf */; };
+		82ABB306208C684A006DA834 /* DIN-LightAlternate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B2208C6838006DA834 /* DIN-LightAlternate.otf */; };
+		82ABB307208C684A006DA834 /* DINEngschriftStd.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B3208C6839006DA834 /* DINEngschriftStd.otf */; };
+		82ABB308208C684A006DA834 /* DINPro-CondIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B4208C6839006DA834 /* DINPro-CondIta.otf */; };
+		82ABB309208C684A006DA834 /* DINNextLTPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B5208C6839006DA834 /* DINNextLTPro-Black.otf */; };
+		82ABB30A208C684A006DA834 /* DINNextLTPro-LightCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B6208C6839006DA834 /* DINNextLTPro-LightCondensed.otf */; };
+		82ABB30B208C684A006DA834 /* DINMittelschrift-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B7208C6839006DA834 /* DINMittelschrift-Regular.ttf */; };
+		82ABB30C208C684A006DA834 /* DIN-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B8208C6839006DA834 /* DIN-MediumItalic.otf */; };
+		82ABB30D208C684A006DA834 /* DINNextLTPro-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2B9208C6839006DA834 /* DINNextLTPro-Heavy.otf */; };
+		82ABB30E208C684A006DA834 /* DIN-MediumItalicExp.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2BA208C683A006DA834 /* DIN-MediumItalicExp.otf */; };
+		82ABB30F208C684A006DA834 /* DIN-BlackItalicExp.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2BB208C683A006DA834 /* DIN-BlackItalicExp.otf */; };
+		82ABB310208C684A006DA834 /* DINNextLTPro-UltraLightCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2BC208C683A006DA834 /* DINNextLTPro-UltraLightCond.otf */; };
+		82ABB311208C684A006DA834 /* DIN-MediumAlternate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2BD208C683A006DA834 /* DIN-MediumAlternate.otf */; };
+		82ABB312208C684A006DA834 /* DINCond-MediumExpert.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2BE208C683A006DA834 /* DINCond-MediumExpert.otf */; };
+		82ABB313208C684A006DA834 /* DINCond-BoldAlternate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2BF208C683A006DA834 /* DINCond-BoldAlternate.otf */; };
+		82ABB314208C684A006DA834 /* DINPro-Italic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C0208C683B006DA834 /* DINPro-Italic.otf */; };
+		82ABB315208C684A006DA834 /* DINCond-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C1208C683B006DA834 /* DINCond-Bold.otf */; };
+		82ABB316208C684A006DA834 /* DINCond-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C2208C683B006DA834 /* DINCond-Regular.otf */; };
+		82ABB317208C684A006DA834 /* DINNextRoundedLTPro-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C3208C683B006DA834 /* DINNextRoundedLTPro-Medium.otf */; };
+		82ABB318208C684A006DA834 /* DINPro-Cond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C4208C683B006DA834 /* DINPro-Cond.otf */; };
+		82ABB319208C684A006DA834 /* DINPro-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C5208C683C006DA834 /* DINPro-LightItalic.otf */; };
+		82ABB31A208C684A006DA834 /* DINNextLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C6208C683C006DA834 /* DINNextLTPro-Bold.otf */; };
+		82ABB31B208C684A006DA834 /* DINCond-LightAlternate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C7208C683C006DA834 /* DINCond-LightAlternate.otf */; };
+		82ABB31C208C684A006DA834 /* DIN-BlackItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C8208C683C006DA834 /* DIN-BlackItalicAlt.otf */; };
+		82ABB31D208C684A006DA834 /* DINNextLTPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2C9208C683C006DA834 /* DINNextLTPro-Light.otf */; };
+		82ABB31E208C684A006DA834 /* DINCond-RegularExpert.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2CA208C683C006DA834 /* DINCond-RegularExpert.otf */; };
+		82ABB31F208C684A006DA834 /* DINNextLTPro-UltraLightIt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2CB208C683D006DA834 /* DINNextLTPro-UltraLightIt.otf */; };
+		82ABB320208C684A006DA834 /* DINCond-BlackExpert.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2CC208C683D006DA834 /* DINCond-BlackExpert.otf */; };
+		82ABB321208C684A006DA834 /* DINNextLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2CD208C683E006DA834 /* DINNextLTPro-Regular.otf */; };
+		82ABB322208C684A006DA834 /* DINPro-CondMedium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2CE208C683E006DA834 /* DINPro-CondMedium.otf */; };
+		82ABB323208C684A006DA834 /* DINCond-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2CF208C683F006DA834 /* DINCond-Light.otf */; };
+		82ABB324208C684A006DA834 /* DINNextLTPro-BoldCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D0208C683F006DA834 /* DINNextLTPro-BoldCondensed.otf */; };
+		82ABB325208C684A006DA834 /* DINNextLTPro-UltraLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D1208C683F006DA834 /* DINNextLTPro-UltraLight.otf */; };
+		82ABB326208C684A006DA834 /* DINNextLTPro-HeavyCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D2208C683F006DA834 /* DINNextLTPro-HeavyCondensed.otf */; };
+		82ABB327208C684A006DA834 /* DINNeuzeitGrotesk-Light-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D3208C683F006DA834 /* DINNeuzeitGrotesk-Light-Regular.ttf */; };
+		82ABB328208C684A006DA834 /* DINPro-CondBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D4208C6840006DA834 /* DINPro-CondBold.otf */; };
+		82ABB329208C684A006DA834 /* DINPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D5208C6840006DA834 /* DINPro-Light.otf */; };
+		82ABB32A208C684A006DA834 /* DINPro-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D6208C6840006DA834 /* DINPro-MediumItalic.otf */; };
+		82ABB32B208C684A006DA834 /* DINPro-CondLightIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D7208C6840006DA834 /* DINPro-CondLightIta.otf */; };
+		82ABB32C208C684A006DA834 /* DINCond-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D8208C6840006DA834 /* DINCond-Black.otf */; };
+		82ABB32D208C684A006DA834 /* DINCond-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2D9208C6840006DA834 /* DINCond-Medium.otf */; };
+		82ABB32E208C684A006DA834 /* DINNextLTPro-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2DA208C6840006DA834 /* DINNextLTPro-BlackItalic.otf */; };
+		82ABB32F208C684A006DA834 /* DINCond-BoldExpert.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2DB208C6841006DA834 /* DINCond-BoldExpert.otf */; };
+		82ABB330208C684A006DA834 /* DINMittelschrift-Alternate-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2DC208C6841006DA834 /* DINMittelschrift-Alternate-Regular.ttf */; };
+		82ABB331208C684A006DA834 /* DINNextLTPro-MediumItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2DD208C6841006DA834 /* DINNextLTPro-MediumItalic.otf */; };
+		82ABB332208C684A006DA834 /* DINNextRoundedLTPro-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2DE208C6841006DA834 /* DINNextRoundedLTPro-Light.otf */; };
+		82ABB333208C684A006DA834 /* DIN-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2DF208C6841006DA834 /* DIN-Medium.otf */; };
+		82ABB334208C684A006DA834 /* DINPro-CondBlack.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E0208C6841006DA834 /* DINPro-CondBlack.otf */; };
+		82ABB335208C684A006DA834 /* DINNextLTPro-BlackCondensed.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E1208C6841006DA834 /* DINNextLTPro-BlackCondensed.otf */; };
+		82ABB336208C684A006DA834 /* DINNextLTPro-HeavyItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E2208C6841006DA834 /* DINNextLTPro-HeavyItalic.otf */; };
+		82ABB337208C684A006DA834 /* DIN-LightItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E3208C6842006DA834 /* DIN-LightItalicAlt.otf */; };
+		82ABB338208C684A006DA834 /* DIN-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E4208C6842006DA834 /* DIN-Light.otf */; };
+		82ABB339208C684A006DA834 /* DIN-BlackAlternate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E5208C6842006DA834 /* DIN-BlackAlternate.otf */; };
+		82ABB33A208C684A006DA834 /* DINNextRoundedLTPro-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E6208C6842006DA834 /* DINNextRoundedLTPro-Regular.otf */; };
+		82ABB33B208C684A006DA834 /* DINPro-BoldItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E7208C6842006DA834 /* DINPro-BoldItalic.otf */; };
+		82ABB33C208C684A006DA834 /* DIN-LightItalicExp.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E8208C6843006DA834 /* DIN-LightItalicExp.otf */; };
+		82ABB33D208C684A006DA834 /* DINNextLTPro-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2E9208C6843006DA834 /* DINNextLTPro-LightItalic.otf */; };
+		82ABB33E208C684A006DA834 /* DINPro-CondLight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2EA208C6843006DA834 /* DINPro-CondLight.otf */; };
+		82ABB33F208C684A006DA834 /* DINCond-RegularAlternate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2EB208C6843006DA834 /* DINCond-RegularAlternate.otf */; };
+		82ABB340208C684A006DA834 /* DINPro-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2EC208C6844006DA834 /* DINPro-Black.otf */; };
+		82ABB341208C684A006DA834 /* DINNextRoundedLTPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2ED208C6844006DA834 /* DINNextRoundedLTPro-Bold.otf */; };
+		82ABB342208C684A006DA834 /* DIN-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2EE208C6844006DA834 /* DIN-BlackItalic.otf */; };
+		82ABB343208C684A006DA834 /* DIN-LightItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2EF208C6845006DA834 /* DIN-LightItalic.otf */; };
+		82ABB344208C684A006DA834 /* DIN-BoldAlternate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F0208C6845006DA834 /* DIN-BoldAlternate.otf */; };
+		82ABB345208C684A006DA834 /* DIN-BoldItalicExp.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F1208C6845006DA834 /* DIN-BoldItalicExp.otf */; };
+		82ABB346208C684A006DA834 /* DINPro-BlackItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F2208C6846006DA834 /* DINPro-BlackItalic.otf */; };
+		82ABB347208C684A006DA834 /* DINPro.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F3208C6847006DA834 /* DINPro.otf */; };
+		82ABB348208C684A006DA834 /* DIN-MediumItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F4208C6847006DA834 /* DIN-MediumItalicAlt.otf */; };
+		82ABB349208C684A006DA834 /* DINNextLTPro-MediumCond.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F5208C6847006DA834 /* DINNextLTPro-MediumCond.otf */; };
+		82ABB34A208C684A006DA834 /* DINCond-BlackAlternate.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F6208C6847006DA834 /* DINCond-BlackAlternate.otf */; };
+		82ABB34B208C684A006DA834 /* DIN-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F7208C6849006DA834 /* DIN-Bold.otf */; };
+		82ABB34C208C684A006DA834 /* DIN-BoldItalicAlt.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F8208C6849006DA834 /* DIN-BoldItalicAlt.otf */; };
+		82ABB34D208C684A006DA834 /* DINPro-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2F9208C6849006DA834 /* DINPro-Bold.otf */; };
+		82ABB34E208C684A006DA834 /* DINPro-CondMediIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2FA208C684A006DA834 /* DINPro-CondMediIta.otf */; };
+		82ABB350208C9181006DA834 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ABB34F208C9181006DA834 /* DetailsViewController.swift */; };
+		82C5C32E208BF54E0099D95B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5C32D208BF54E0099D95B /* Constants.swift */; };
+		82DD1E2B208B877C00D8F86B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1E2A208B877C00D8F86B /* AppDelegate.swift */; };
+		82DD1E2D208B877C00D8F86B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1E2C208B877C00D8F86B /* ViewController.swift */; };
+		82DD1E30208B877C00D8F86B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD1E2E208B877C00D8F86B /* Main.storyboard */; };
+		82DD1E32208B877E00D8F86B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DD1E31208B877E00D8F86B /* Assets.xcassets */; };
+		82DD1E35208B877E00D8F86B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD1E33208B877E00D8F86B /* LaunchScreen.storyboard */; };
+		82DD1E40208B877F00D8F86B /* solutionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1E3F208B877F00D8F86B /* solutionTests.swift */; };
+		82DD1E4B208B877F00D8F86B /* solutionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1E4A208B877F00D8F86B /* solutionUITests.swift */; };
+		9C31FB8B6F4898801FA5F958 /* Pods_solutionUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64DA2B8ADA7957366B75B126 /* Pods_solutionUITests.framework */; };
+		B167CBC957F6389F77C969A3 /* Pods_solutionTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BB81C266EC8386A89037CDB /* Pods_solutionTests.framework */; };
+		EF418547A0CB689CD58B69D7 /* Pods_solution.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A47DC1BDC0788B2E658BAA7E /* Pods_solution.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		82DD1E3C208B877E00D8F86B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DD1E1F208B877C00D8F86B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DD1E26208B877C00D8F86B;
+			remoteInfo = solution;
+		};
+		82DD1E47208B877F00D8F86B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 82DD1E1F208B877C00D8F86B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 82DD1E26208B877C00D8F86B;
+			remoteInfo = solution;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BB81C266EC8386A89037CDB /* Pods_solutionTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_solutionTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F47390F498AC825EFDC01A /* Pods-solution.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solution.debug.xcconfig"; path = "Pods/Target Support Files/Pods-solution/Pods-solution.debug.xcconfig"; sourceTree = "<group>"; };
+		64DA2B8ADA7957366B75B126 /* Pods_solutionUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_solutionUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82ABB29B208C2EDF006DA834 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		82ABB29F208C4B0F006DA834 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		82ABB2A1208C4B18006DA834 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		82ABB2A3208C4B65006DA834 /* Mappable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mappable.swift; sourceTree = "<group>"; };
+		82ABB2A7208C6836006DA834 /* DINNextLTPro-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BoldItalic.otf"; sourceTree = "<group>"; };
+		82ABB2A8208C6837006DA834 /* DINNextLTPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Medium.otf"; sourceTree = "<group>"; };
+		82ABB2A9208C6837006DA834 /* DINPro-CondBoldIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondBoldIta.otf"; sourceTree = "<group>"; };
+		82ABB2AA208C6837006DA834 /* DINCond-LightExpert.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-LightExpert.otf"; sourceTree = "<group>"; };
+		82ABB2AB208C6837006DA834 /* DINNextLTPro-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Italic.otf"; sourceTree = "<group>"; };
+		82ABB2AC208C6837006DA834 /* DINPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Medium.otf"; sourceTree = "<group>"; };
+		82ABB2AD208C6838006DA834 /* DINCond-MediumAlternate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-MediumAlternate.otf"; sourceTree = "<group>"; };
+		82ABB2AE208C6838006DA834 /* DINNextLTPro-Condensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Condensed.otf"; sourceTree = "<group>"; };
+		82ABB2AF208C6838006DA834 /* DINPro-CondBlackIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondBlackIta.otf"; sourceTree = "<group>"; };
+		82ABB2B0208C6838006DA834 /* DIN-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-BoldItalic.otf"; sourceTree = "<group>"; };
+		82ABB2B1208C6838006DA834 /* DIN-Euro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-Euro.otf"; sourceTree = "<group>"; };
+		82ABB2B2208C6838006DA834 /* DIN-LightAlternate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-LightAlternate.otf"; sourceTree = "<group>"; };
+		82ABB2B3208C6839006DA834 /* DINEngschriftStd.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINEngschriftStd.otf; sourceTree = "<group>"; };
+		82ABB2B4208C6839006DA834 /* DINPro-CondIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondIta.otf"; sourceTree = "<group>"; };
+		82ABB2B5208C6839006DA834 /* DINNextLTPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Black.otf"; sourceTree = "<group>"; };
+		82ABB2B6208C6839006DA834 /* DINNextLTPro-LightCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-LightCondensed.otf"; sourceTree = "<group>"; };
+		82ABB2B7208C6839006DA834 /* DINMittelschrift-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINMittelschrift-Regular.ttf"; sourceTree = "<group>"; };
+		82ABB2B8208C6839006DA834 /* DIN-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-MediumItalic.otf"; sourceTree = "<group>"; };
+		82ABB2B9208C6839006DA834 /* DINNextLTPro-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Heavy.otf"; sourceTree = "<group>"; };
+		82ABB2BA208C683A006DA834 /* DIN-MediumItalicExp.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-MediumItalicExp.otf"; sourceTree = "<group>"; };
+		82ABB2BB208C683A006DA834 /* DIN-BlackItalicExp.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-BlackItalicExp.otf"; sourceTree = "<group>"; };
+		82ABB2BC208C683A006DA834 /* DINNextLTPro-UltraLightCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-UltraLightCond.otf"; sourceTree = "<group>"; };
+		82ABB2BD208C683A006DA834 /* DIN-MediumAlternate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-MediumAlternate.otf"; sourceTree = "<group>"; };
+		82ABB2BE208C683A006DA834 /* DINCond-MediumExpert.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-MediumExpert.otf"; sourceTree = "<group>"; };
+		82ABB2BF208C683A006DA834 /* DINCond-BoldAlternate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-BoldAlternate.otf"; sourceTree = "<group>"; };
+		82ABB2C0208C683B006DA834 /* DINPro-Italic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Italic.otf"; sourceTree = "<group>"; };
+		82ABB2C1208C683B006DA834 /* DINCond-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-Bold.otf"; sourceTree = "<group>"; };
+		82ABB2C2208C683B006DA834 /* DINCond-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-Regular.otf"; sourceTree = "<group>"; };
+		82ABB2C3208C683B006DA834 /* DINNextRoundedLTPro-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextRoundedLTPro-Medium.otf"; sourceTree = "<group>"; };
+		82ABB2C4208C683B006DA834 /* DINPro-Cond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Cond.otf"; sourceTree = "<group>"; };
+		82ABB2C5208C683C006DA834 /* DINPro-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-LightItalic.otf"; sourceTree = "<group>"; };
+		82ABB2C6208C683C006DA834 /* DINNextLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Bold.otf"; sourceTree = "<group>"; };
+		82ABB2C7208C683C006DA834 /* DINCond-LightAlternate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-LightAlternate.otf"; sourceTree = "<group>"; };
+		82ABB2C8208C683C006DA834 /* DIN-BlackItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-BlackItalicAlt.otf"; sourceTree = "<group>"; };
+		82ABB2C9208C683C006DA834 /* DINNextLTPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Light.otf"; sourceTree = "<group>"; };
+		82ABB2CA208C683C006DA834 /* DINCond-RegularExpert.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-RegularExpert.otf"; sourceTree = "<group>"; };
+		82ABB2CB208C683D006DA834 /* DINNextLTPro-UltraLightIt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-UltraLightIt.otf"; sourceTree = "<group>"; };
+		82ABB2CC208C683D006DA834 /* DINCond-BlackExpert.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-BlackExpert.otf"; sourceTree = "<group>"; };
+		82ABB2CD208C683E006DA834 /* DINNextLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-Regular.otf"; sourceTree = "<group>"; };
+		82ABB2CE208C683E006DA834 /* DINPro-CondMedium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondMedium.otf"; sourceTree = "<group>"; };
+		82ABB2CF208C683F006DA834 /* DINCond-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-Light.otf"; sourceTree = "<group>"; };
+		82ABB2D0208C683F006DA834 /* DINNextLTPro-BoldCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BoldCondensed.otf"; sourceTree = "<group>"; };
+		82ABB2D1208C683F006DA834 /* DINNextLTPro-UltraLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-UltraLight.otf"; sourceTree = "<group>"; };
+		82ABB2D2208C683F006DA834 /* DINNextLTPro-HeavyCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-HeavyCondensed.otf"; sourceTree = "<group>"; };
+		82ABB2D3208C683F006DA834 /* DINNeuzeitGrotesk-Light-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNeuzeitGrotesk-Light-Regular.ttf"; sourceTree = "<group>"; };
+		82ABB2D4208C6840006DA834 /* DINPro-CondBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondBold.otf"; sourceTree = "<group>"; };
+		82ABB2D5208C6840006DA834 /* DINPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Light.otf"; sourceTree = "<group>"; };
+		82ABB2D6208C6840006DA834 /* DINPro-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-MediumItalic.otf"; sourceTree = "<group>"; };
+		82ABB2D7208C6840006DA834 /* DINPro-CondLightIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondLightIta.otf"; sourceTree = "<group>"; };
+		82ABB2D8208C6840006DA834 /* DINCond-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-Black.otf"; sourceTree = "<group>"; };
+		82ABB2D9208C6840006DA834 /* DINCond-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-Medium.otf"; sourceTree = "<group>"; };
+		82ABB2DA208C6840006DA834 /* DINNextLTPro-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BlackItalic.otf"; sourceTree = "<group>"; };
+		82ABB2DB208C6841006DA834 /* DINCond-BoldExpert.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-BoldExpert.otf"; sourceTree = "<group>"; };
+		82ABB2DC208C6841006DA834 /* DINMittelschrift-Alternate-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINMittelschrift-Alternate-Regular.ttf"; sourceTree = "<group>"; };
+		82ABB2DD208C6841006DA834 /* DINNextLTPro-MediumItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-MediumItalic.otf"; sourceTree = "<group>"; };
+		82ABB2DE208C6841006DA834 /* DINNextRoundedLTPro-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextRoundedLTPro-Light.otf"; sourceTree = "<group>"; };
+		82ABB2DF208C6841006DA834 /* DIN-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-Medium.otf"; sourceTree = "<group>"; };
+		82ABB2E0208C6841006DA834 /* DINPro-CondBlack.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondBlack.otf"; sourceTree = "<group>"; };
+		82ABB2E1208C6841006DA834 /* DINNextLTPro-BlackCondensed.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-BlackCondensed.otf"; sourceTree = "<group>"; };
+		82ABB2E2208C6841006DA834 /* DINNextLTPro-HeavyItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-HeavyItalic.otf"; sourceTree = "<group>"; };
+		82ABB2E3208C6842006DA834 /* DIN-LightItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-LightItalicAlt.otf"; sourceTree = "<group>"; };
+		82ABB2E4208C6842006DA834 /* DIN-Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-Light.otf"; sourceTree = "<group>"; };
+		82ABB2E5208C6842006DA834 /* DIN-BlackAlternate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-BlackAlternate.otf"; sourceTree = "<group>"; };
+		82ABB2E6208C6842006DA834 /* DINNextRoundedLTPro-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextRoundedLTPro-Regular.otf"; sourceTree = "<group>"; };
+		82ABB2E7208C6842006DA834 /* DINPro-BoldItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-BoldItalic.otf"; sourceTree = "<group>"; };
+		82ABB2E8208C6843006DA834 /* DIN-LightItalicExp.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-LightItalicExp.otf"; sourceTree = "<group>"; };
+		82ABB2E9208C6843006DA834 /* DINNextLTPro-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-LightItalic.otf"; sourceTree = "<group>"; };
+		82ABB2EA208C6843006DA834 /* DINPro-CondLight.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondLight.otf"; sourceTree = "<group>"; };
+		82ABB2EB208C6843006DA834 /* DINCond-RegularAlternate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-RegularAlternate.otf"; sourceTree = "<group>"; };
+		82ABB2EC208C6844006DA834 /* DINPro-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Black.otf"; sourceTree = "<group>"; };
+		82ABB2ED208C6844006DA834 /* DINNextRoundedLTPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextRoundedLTPro-Bold.otf"; sourceTree = "<group>"; };
+		82ABB2EE208C6844006DA834 /* DIN-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-BlackItalic.otf"; sourceTree = "<group>"; };
+		82ABB2EF208C6845006DA834 /* DIN-LightItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-LightItalic.otf"; sourceTree = "<group>"; };
+		82ABB2F0208C6845006DA834 /* DIN-BoldAlternate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-BoldAlternate.otf"; sourceTree = "<group>"; };
+		82ABB2F1208C6845006DA834 /* DIN-BoldItalicExp.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-BoldItalicExp.otf"; sourceTree = "<group>"; };
+		82ABB2F2208C6846006DA834 /* DINPro-BlackItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-BlackItalic.otf"; sourceTree = "<group>"; };
+		82ABB2F3208C6847006DA834 /* DINPro.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DINPro.otf; sourceTree = "<group>"; };
+		82ABB2F4208C6847006DA834 /* DIN-MediumItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-MediumItalicAlt.otf"; sourceTree = "<group>"; };
+		82ABB2F5208C6847006DA834 /* DINNextLTPro-MediumCond.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINNextLTPro-MediumCond.otf"; sourceTree = "<group>"; };
+		82ABB2F6208C6847006DA834 /* DINCond-BlackAlternate.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINCond-BlackAlternate.otf"; sourceTree = "<group>"; };
+		82ABB2F7208C6849006DA834 /* DIN-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-Bold.otf"; sourceTree = "<group>"; };
+		82ABB2F8208C6849006DA834 /* DIN-BoldItalicAlt.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DIN-BoldItalicAlt.otf"; sourceTree = "<group>"; };
+		82ABB2F9208C6849006DA834 /* DINPro-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-Bold.otf"; sourceTree = "<group>"; };
+		82ABB2FA208C684A006DA834 /* DINPro-CondMediIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondMediIta.otf"; sourceTree = "<group>"; };
+		82ABB34F208C9181006DA834 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		82C5C32D208BF54E0099D95B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		82DD1E27208B877C00D8F86B /* solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solution.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD1E2A208B877C00D8F86B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		82DD1E2C208B877C00D8F86B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		82DD1E2F208B877C00D8F86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82DD1E31208B877E00D8F86B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82DD1E34208B877E00D8F86B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82DD1E36208B877E00D8F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DD1E3B208B877E00D8F86B /* solutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = solutionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD1E3F208B877F00D8F86B /* solutionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solutionTests.swift; sourceTree = "<group>"; };
+		82DD1E41208B877F00D8F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DD1E46208B877F00D8F86B /* solutionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = solutionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82DD1E4A208B877F00D8F86B /* solutionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = solutionUITests.swift; sourceTree = "<group>"; };
+		82DD1E4C208B877F00D8F86B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FECBC2244C4E23074DD66C5 /* Pods-solutionTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solutionTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-solutionTests/Pods-solutionTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A47DC1BDC0788B2E658BAA7E /* Pods_solution.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_solution.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBFA264EEA2B339509096FD3 /* Pods-solutionUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solutionUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-solutionUITests/Pods-solutionUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E23425FD17F3C2C4DAD2E3E0 /* Pods-solution.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solution.release.xcconfig"; path = "Pods/Target Support Files/Pods-solution/Pods-solution.release.xcconfig"; sourceTree = "<group>"; };
+		F5FF02E481A580377DD3B75D /* Pods-solutionTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solutionTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-solutionTests/Pods-solutionTests.release.xcconfig"; sourceTree = "<group>"; };
+		F9D730AAE32CDF7EB28CADAE /* Pods-solutionUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-solutionUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-solutionUITests/Pods-solutionUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82DD1E24208B877C00D8F86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF418547A0CB689CD58B69D7 /* Pods_solution.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD1E38208B877E00D8F86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B167CBC957F6389F77C969A3 /* Pods_solutionTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD1E43208B877F00D8F86B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C31FB8B6F4898801FA5F958 /* Pods_solutionUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29017044B84AE4D7C73BDEF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A47DC1BDC0788B2E658BAA7E /* Pods_solution.framework */,
+				1BB81C266EC8386A89037CDB /* Pods_solutionTests.framework */,
+				64DA2B8ADA7957366B75B126 /* Pods_solutionUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82ABB29E208C4AFA006DA834 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				82ABB2A3208C4B65006DA834 /* Mappable.swift */,
+				82ABB29F208C4B0F006DA834 /* Group.swift */,
+				82ABB2A1208C4B18006DA834 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		82ABB2A5208C6801006DA834 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				82ABB2A6208C6819006DA834 /* Fonts */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		82ABB2A6208C6819006DA834 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				82ABB2E5208C6842006DA834 /* DIN-BlackAlternate.otf */,
+				82ABB2EE208C6844006DA834 /* DIN-BlackItalic.otf */,
+				82ABB2C8208C683C006DA834 /* DIN-BlackItalicAlt.otf */,
+				82ABB2BB208C683A006DA834 /* DIN-BlackItalicExp.otf */,
+				82ABB2F7208C6849006DA834 /* DIN-Bold.otf */,
+				82ABB2F0208C6845006DA834 /* DIN-BoldAlternate.otf */,
+				82ABB2B0208C6838006DA834 /* DIN-BoldItalic.otf */,
+				82ABB2F8208C6849006DA834 /* DIN-BoldItalicAlt.otf */,
+				82ABB2F1208C6845006DA834 /* DIN-BoldItalicExp.otf */,
+				82ABB2B1208C6838006DA834 /* DIN-Euro.otf */,
+				82ABB2E4208C6842006DA834 /* DIN-Light.otf */,
+				82ABB2B2208C6838006DA834 /* DIN-LightAlternate.otf */,
+				82ABB2EF208C6845006DA834 /* DIN-LightItalic.otf */,
+				82ABB2E3208C6842006DA834 /* DIN-LightItalicAlt.otf */,
+				82ABB2E8208C6843006DA834 /* DIN-LightItalicExp.otf */,
+				82ABB2DF208C6841006DA834 /* DIN-Medium.otf */,
+				82ABB2BD208C683A006DA834 /* DIN-MediumAlternate.otf */,
+				82ABB2B8208C6839006DA834 /* DIN-MediumItalic.otf */,
+				82ABB2F4208C6847006DA834 /* DIN-MediumItalicAlt.otf */,
+				82ABB2BA208C683A006DA834 /* DIN-MediumItalicExp.otf */,
+				82ABB2D8208C6840006DA834 /* DINCond-Black.otf */,
+				82ABB2F6208C6847006DA834 /* DINCond-BlackAlternate.otf */,
+				82ABB2CC208C683D006DA834 /* DINCond-BlackExpert.otf */,
+				82ABB2C1208C683B006DA834 /* DINCond-Bold.otf */,
+				82ABB2BF208C683A006DA834 /* DINCond-BoldAlternate.otf */,
+				82ABB2DB208C6841006DA834 /* DINCond-BoldExpert.otf */,
+				82ABB2CF208C683F006DA834 /* DINCond-Light.otf */,
+				82ABB2C7208C683C006DA834 /* DINCond-LightAlternate.otf */,
+				82ABB2AA208C6837006DA834 /* DINCond-LightExpert.otf */,
+				82ABB2D9208C6840006DA834 /* DINCond-Medium.otf */,
+				82ABB2AD208C6838006DA834 /* DINCond-MediumAlternate.otf */,
+				82ABB2BE208C683A006DA834 /* DINCond-MediumExpert.otf */,
+				82ABB2C2208C683B006DA834 /* DINCond-Regular.otf */,
+				82ABB2EB208C6843006DA834 /* DINCond-RegularAlternate.otf */,
+				82ABB2CA208C683C006DA834 /* DINCond-RegularExpert.otf */,
+				82ABB2B3208C6839006DA834 /* DINEngschriftStd.otf */,
+				82ABB2DC208C6841006DA834 /* DINMittelschrift-Alternate-Regular.ttf */,
+				82ABB2B7208C6839006DA834 /* DINMittelschrift-Regular.ttf */,
+				82ABB2D3208C683F006DA834 /* DINNeuzeitGrotesk-Light-Regular.ttf */,
+				82ABB2B5208C6839006DA834 /* DINNextLTPro-Black.otf */,
+				82ABB2E1208C6841006DA834 /* DINNextLTPro-BlackCondensed.otf */,
+				82ABB2DA208C6840006DA834 /* DINNextLTPro-BlackItalic.otf */,
+				82ABB2C6208C683C006DA834 /* DINNextLTPro-Bold.otf */,
+				82ABB2D0208C683F006DA834 /* DINNextLTPro-BoldCondensed.otf */,
+				82ABB2A7208C6836006DA834 /* DINNextLTPro-BoldItalic.otf */,
+				82ABB2AE208C6838006DA834 /* DINNextLTPro-Condensed.otf */,
+				82ABB2B9208C6839006DA834 /* DINNextLTPro-Heavy.otf */,
+				82ABB2D2208C683F006DA834 /* DINNextLTPro-HeavyCondensed.otf */,
+				82ABB2E2208C6841006DA834 /* DINNextLTPro-HeavyItalic.otf */,
+				82ABB2AB208C6837006DA834 /* DINNextLTPro-Italic.otf */,
+				82ABB2C9208C683C006DA834 /* DINNextLTPro-Light.otf */,
+				82ABB2B6208C6839006DA834 /* DINNextLTPro-LightCondensed.otf */,
+				82ABB2E9208C6843006DA834 /* DINNextLTPro-LightItalic.otf */,
+				82ABB2A8208C6837006DA834 /* DINNextLTPro-Medium.otf */,
+				82ABB2F5208C6847006DA834 /* DINNextLTPro-MediumCond.otf */,
+				82ABB2DD208C6841006DA834 /* DINNextLTPro-MediumItalic.otf */,
+				82ABB2CD208C683E006DA834 /* DINNextLTPro-Regular.otf */,
+				82ABB2D1208C683F006DA834 /* DINNextLTPro-UltraLight.otf */,
+				82ABB2BC208C683A006DA834 /* DINNextLTPro-UltraLightCond.otf */,
+				82ABB2CB208C683D006DA834 /* DINNextLTPro-UltraLightIt.otf */,
+				82ABB2ED208C6844006DA834 /* DINNextRoundedLTPro-Bold.otf */,
+				82ABB2DE208C6841006DA834 /* DINNextRoundedLTPro-Light.otf */,
+				82ABB2C3208C683B006DA834 /* DINNextRoundedLTPro-Medium.otf */,
+				82ABB2E6208C6842006DA834 /* DINNextRoundedLTPro-Regular.otf */,
+				82ABB2EC208C6844006DA834 /* DINPro-Black.otf */,
+				82ABB2F2208C6846006DA834 /* DINPro-BlackItalic.otf */,
+				82ABB2F9208C6849006DA834 /* DINPro-Bold.otf */,
+				82ABB2E7208C6842006DA834 /* DINPro-BoldItalic.otf */,
+				82ABB2C4208C683B006DA834 /* DINPro-Cond.otf */,
+				82ABB2E0208C6841006DA834 /* DINPro-CondBlack.otf */,
+				82ABB2AF208C6838006DA834 /* DINPro-CondBlackIta.otf */,
+				82ABB2D4208C6840006DA834 /* DINPro-CondBold.otf */,
+				82ABB2A9208C6837006DA834 /* DINPro-CondBoldIta.otf */,
+				82ABB2B4208C6839006DA834 /* DINPro-CondIta.otf */,
+				82ABB2EA208C6843006DA834 /* DINPro-CondLight.otf */,
+				82ABB2D7208C6840006DA834 /* DINPro-CondLightIta.otf */,
+				82ABB2FA208C684A006DA834 /* DINPro-CondMediIta.otf */,
+				82ABB2CE208C683E006DA834 /* DINPro-CondMedium.otf */,
+				82ABB2C0208C683B006DA834 /* DINPro-Italic.otf */,
+				82ABB2D5208C6840006DA834 /* DINPro-Light.otf */,
+				82ABB2C5208C683C006DA834 /* DINPro-LightItalic.otf */,
+				82ABB2AC208C6837006DA834 /* DINPro-Medium.otf */,
+				82ABB2D6208C6840006DA834 /* DINPro-MediumItalic.otf */,
+				82ABB2F3208C6847006DA834 /* DINPro.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		82C5C31A208BF3BB0099D95B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				82DD1E2C208B877C00D8F86B /* ViewController.swift */,
+				82ABB34F208C9181006DA834 /* DetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		82C5C31B208BF3CA0099D95B /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				82DD1E2E208B877C00D8F86B /* Main.storyboard */,
+				82DD1E33208B877E00D8F86B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		82DD1E1E208B877C00D8F86B = {
+			isa = PBXGroup;
+			children = (
+				82DD1E29208B877C00D8F86B /* solution */,
+				82DD1E3E208B877F00D8F86B /* solutionTests */,
+				82DD1E49208B877F00D8F86B /* solutionUITests */,
+				82DD1E28208B877C00D8F86B /* Products */,
+				D756B005CB46886452C6EC0B /* Pods */,
+				29017044B84AE4D7C73BDEF7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		82DD1E28208B877C00D8F86B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82DD1E27208B877C00D8F86B /* solution.app */,
+				82DD1E3B208B877E00D8F86B /* solutionTests.xctest */,
+				82DD1E46208B877F00D8F86B /* solutionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82DD1E29208B877C00D8F86B /* solution */ = {
+			isa = PBXGroup;
+			children = (
+				82ABB2A5208C6801006DA834 /* Utils */,
+				82ABB29E208C4AFA006DA834 /* Model */,
+				82C5C31B208BF3CA0099D95B /* Storyboards */,
+				82C5C31A208BF3BB0099D95B /* Controllers */,
+				82DD1E2A208B877C00D8F86B /* AppDelegate.swift */,
+				82DD1E31208B877E00D8F86B /* Assets.xcassets */,
+				82C5C32D208BF54E0099D95B /* Constants.swift */,
+				82ABB29B208C2EDF006DA834 /* GoogleService-Info.plist */,
+				82DD1E36208B877E00D8F86B /* Info.plist */,
+			);
+			path = solution;
+			sourceTree = "<group>";
+		};
+		82DD1E3E208B877F00D8F86B /* solutionTests */ = {
+			isa = PBXGroup;
+			children = (
+				82DD1E3F208B877F00D8F86B /* solutionTests.swift */,
+				82DD1E41208B877F00D8F86B /* Info.plist */,
+			);
+			path = solutionTests;
+			sourceTree = "<group>";
+		};
+		82DD1E49208B877F00D8F86B /* solutionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				82DD1E4A208B877F00D8F86B /* solutionUITests.swift */,
+				82DD1E4C208B877F00D8F86B /* Info.plist */,
+			);
+			path = solutionUITests;
+			sourceTree = "<group>";
+		};
+		D756B005CB46886452C6EC0B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56F47390F498AC825EFDC01A /* Pods-solution.debug.xcconfig */,
+				E23425FD17F3C2C4DAD2E3E0 /* Pods-solution.release.xcconfig */,
+				8FECBC2244C4E23074DD66C5 /* Pods-solutionTests.debug.xcconfig */,
+				F5FF02E481A580377DD3B75D /* Pods-solutionTests.release.xcconfig */,
+				CBFA264EEA2B339509096FD3 /* Pods-solutionUITests.debug.xcconfig */,
+				F9D730AAE32CDF7EB28CADAE /* Pods-solutionUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82DD1E26208B877C00D8F86B /* solution */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD1E4F208B877F00D8F86B /* Build configuration list for PBXNativeTarget "solution" */;
+			buildPhases = (
+				097F37D542B8DCAF25934411 /* [CP] Check Pods Manifest.lock */,
+				82DD1E23208B877C00D8F86B /* Sources */,
+				82DD1E24208B877C00D8F86B /* Frameworks */,
+				82DD1E25208B877C00D8F86B /* Resources */,
+				855EF7272C9BDAC0ED5B3B62 /* [CP] Copy Pods Resources */,
+				6F8A76C9BF9261D939AEF50E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = solution;
+			productName = solution;
+			productReference = 82DD1E27208B877C00D8F86B /* solution.app */;
+			productType = "com.apple.product-type.application";
+		};
+		82DD1E3A208B877E00D8F86B /* solutionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD1E52208B877F00D8F86B /* Build configuration list for PBXNativeTarget "solutionTests" */;
+			buildPhases = (
+				9ED34649C2A68FBD9EE920E0 /* [CP] Check Pods Manifest.lock */,
+				82DD1E37208B877E00D8F86B /* Sources */,
+				82DD1E38208B877E00D8F86B /* Frameworks */,
+				82DD1E39208B877E00D8F86B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DD1E3D208B877E00D8F86B /* PBXTargetDependency */,
+			);
+			name = solutionTests;
+			productName = solutionTests;
+			productReference = 82DD1E3B208B877E00D8F86B /* solutionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		82DD1E45208B877F00D8F86B /* solutionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82DD1E55208B877F00D8F86B /* Build configuration list for PBXNativeTarget "solutionUITests" */;
+			buildPhases = (
+				3CDD10FEBD621FAFE3D10E77 /* [CP] Check Pods Manifest.lock */,
+				82DD1E42208B877F00D8F86B /* Sources */,
+				82DD1E43208B877F00D8F86B /* Frameworks */,
+				82DD1E44208B877F00D8F86B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				82DD1E48208B877F00D8F86B /* PBXTargetDependency */,
+			);
+			name = solutionUITests;
+			productName = solutionUITests;
+			productReference = 82DD1E46208B877F00D8F86B /* solutionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82DD1E1F208B877C00D8F86B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Lucas Goes Valle";
+				TargetAttributes = {
+					82DD1E26208B877C00D8F86B = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					82DD1E3A208B877E00D8F86B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 82DD1E26208B877C00D8F86B;
+					};
+					82DD1E45208B877F00D8F86B = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 82DD1E26208B877C00D8F86B;
+					};
+				};
+			};
+			buildConfigurationList = 82DD1E22208B877C00D8F86B /* Build configuration list for PBXProject "solution" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 82DD1E1E208B877C00D8F86B;
+			productRefGroup = 82DD1E28208B877C00D8F86B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82DD1E26208B877C00D8F86B /* solution */,
+				82DD1E3A208B877E00D8F86B /* solutionTests */,
+				82DD1E45208B877F00D8F86B /* solutionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82DD1E25208B877C00D8F86B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82ABB308208C684A006DA834 /* DINPro-CondIta.otf in Resources */,
+				82ABB320208C684A006DA834 /* DINCond-BlackExpert.otf in Resources */,
+				82ABB32A208C684A006DA834 /* DINPro-MediumItalic.otf in Resources */,
+				82ABB32C208C684A006DA834 /* DINCond-Black.otf in Resources */,
+				82ABB329208C684A006DA834 /* DINPro-Light.otf in Resources */,
+				82ABB340208C684A006DA834 /* DINPro-Black.otf in Resources */,
+				82ABB31F208C684A006DA834 /* DINNextLTPro-UltraLightIt.otf in Resources */,
+				82ABB333208C684A006DA834 /* DIN-Medium.otf in Resources */,
+				82DD1E35208B877E00D8F86B /* LaunchScreen.storyboard in Resources */,
+				82ABB346208C684A006DA834 /* DINPro-BlackItalic.otf in Resources */,
+				82ABB328208C684A006DA834 /* DINPro-CondBold.otf in Resources */,
+				82ABB30E208C684A006DA834 /* DIN-MediumItalicExp.otf in Resources */,
+				82ABB303208C684A006DA834 /* DINPro-CondBlackIta.otf in Resources */,
+				82ABB301208C684A006DA834 /* DINCond-MediumAlternate.otf in Resources */,
+				82ABB29C208C2EDF006DA834 /* GoogleService-Info.plist in Resources */,
+				82ABB311208C684A006DA834 /* DIN-MediumAlternate.otf in Resources */,
+				82ABB310208C684A006DA834 /* DINNextLTPro-UltraLightCond.otf in Resources */,
+				82ABB337208C684A006DA834 /* DIN-LightItalicAlt.otf in Resources */,
+				82ABB327208C684A006DA834 /* DINNeuzeitGrotesk-Light-Regular.ttf in Resources */,
+				82ABB32B208C684A006DA834 /* DINPro-CondLightIta.otf in Resources */,
+				82ABB33C208C684A006DA834 /* DIN-LightItalicExp.otf in Resources */,
+				82ABB338208C684A006DA834 /* DIN-Light.otf in Resources */,
+				82ABB316208C684A006DA834 /* DINCond-Regular.otf in Resources */,
+				82ABB312208C684A006DA834 /* DINCond-MediumExpert.otf in Resources */,
+				82ABB339208C684A006DA834 /* DIN-BlackAlternate.otf in Resources */,
+				82ABB31D208C684A006DA834 /* DINNextLTPro-Light.otf in Resources */,
+				82ABB335208C684A006DA834 /* DINNextLTPro-BlackCondensed.otf in Resources */,
+				82ABB313208C684A006DA834 /* DINCond-BoldAlternate.otf in Resources */,
+				82ABB326208C684A006DA834 /* DINNextLTPro-HeavyCondensed.otf in Resources */,
+				82ABB331208C684A006DA834 /* DINNextLTPro-MediumItalic.otf in Resources */,
+				82ABB342208C684A006DA834 /* DIN-BlackItalic.otf in Resources */,
+				82ABB34E208C684A006DA834 /* DINPro-CondMediIta.otf in Resources */,
+				82ABB31C208C684A006DA834 /* DIN-BlackItalicAlt.otf in Resources */,
+				82ABB2FE208C684A006DA834 /* DINCond-LightExpert.otf in Resources */,
+				82ABB317208C684A006DA834 /* DINNextRoundedLTPro-Medium.otf in Resources */,
+				82ABB302208C684A006DA834 /* DINNextLTPro-Condensed.otf in Resources */,
+				82ABB325208C684A006DA834 /* DINNextLTPro-UltraLight.otf in Resources */,
+				82ABB321208C684A006DA834 /* DINNextLTPro-Regular.otf in Resources */,
+				82ABB336208C684A006DA834 /* DINNextLTPro-HeavyItalic.otf in Resources */,
+				82ABB30B208C684A006DA834 /* DINMittelschrift-Regular.ttf in Resources */,
+				82ABB32F208C684A006DA834 /* DINCond-BoldExpert.otf in Resources */,
+				82ABB334208C684A006DA834 /* DINPro-CondBlack.otf in Resources */,
+				82ABB345208C684A006DA834 /* DIN-BoldItalicExp.otf in Resources */,
+				82ABB30D208C684A006DA834 /* DINNextLTPro-Heavy.otf in Resources */,
+				82ABB349208C684A006DA834 /* DINNextLTPro-MediumCond.otf in Resources */,
+				82ABB315208C684A006DA834 /* DINCond-Bold.otf in Resources */,
+				82ABB33E208C684A006DA834 /* DINPro-CondLight.otf in Resources */,
+				82ABB32E208C684A006DA834 /* DINNextLTPro-BlackItalic.otf in Resources */,
+				82ABB32D208C684A006DA834 /* DINCond-Medium.otf in Resources */,
+				82ABB307208C684A006DA834 /* DINEngschriftStd.otf in Resources */,
+				82ABB33F208C684A006DA834 /* DINCond-RegularAlternate.otf in Resources */,
+				82ABB33B208C684A006DA834 /* DINPro-BoldItalic.otf in Resources */,
+				82ABB2FB208C684A006DA834 /* DINNextLTPro-BoldItalic.otf in Resources */,
+				82ABB30F208C684A006DA834 /* DIN-BlackItalicExp.otf in Resources */,
+				82ABB332208C684A006DA834 /* DINNextRoundedLTPro-Light.otf in Resources */,
+				82ABB30A208C684A006DA834 /* DINNextLTPro-LightCondensed.otf in Resources */,
+				82ABB31B208C684A006DA834 /* DINCond-LightAlternate.otf in Resources */,
+				82ABB300208C684A006DA834 /* DINPro-Medium.otf in Resources */,
+				82ABB304208C684A006DA834 /* DIN-BoldItalic.otf in Resources */,
+				82ABB324208C684A006DA834 /* DINNextLTPro-BoldCondensed.otf in Resources */,
+				82ABB348208C684A006DA834 /* DIN-MediumItalicAlt.otf in Resources */,
+				82ABB319208C684A006DA834 /* DINPro-LightItalic.otf in Resources */,
+				82ABB322208C684A006DA834 /* DINPro-CondMedium.otf in Resources */,
+				82ABB34B208C684A006DA834 /* DIN-Bold.otf in Resources */,
+				82DD1E32208B877E00D8F86B /* Assets.xcassets in Resources */,
+				82ABB34D208C684A006DA834 /* DINPro-Bold.otf in Resources */,
+				82ABB314208C684A006DA834 /* DINPro-Italic.otf in Resources */,
+				82ABB309208C684A006DA834 /* DINNextLTPro-Black.otf in Resources */,
+				82ABB341208C684A006DA834 /* DINNextRoundedLTPro-Bold.otf in Resources */,
+				82ABB31E208C684A006DA834 /* DINCond-RegularExpert.otf in Resources */,
+				82ABB34C208C684A006DA834 /* DIN-BoldItalicAlt.otf in Resources */,
+				82ABB2FD208C684A006DA834 /* DINPro-CondBoldIta.otf in Resources */,
+				82ABB305208C684A006DA834 /* DIN-Euro.otf in Resources */,
+				82ABB2FF208C684A006DA834 /* DINNextLTPro-Italic.otf in Resources */,
+				82ABB318208C684A006DA834 /* DINPro-Cond.otf in Resources */,
+				82ABB330208C684A006DA834 /* DINMittelschrift-Alternate-Regular.ttf in Resources */,
+				82ABB30C208C684A006DA834 /* DIN-MediumItalic.otf in Resources */,
+				82ABB343208C684A006DA834 /* DIN-LightItalic.otf in Resources */,
+				82ABB306208C684A006DA834 /* DIN-LightAlternate.otf in Resources */,
+				82ABB31A208C684A006DA834 /* DINNextLTPro-Bold.otf in Resources */,
+				82ABB33D208C684A006DA834 /* DINNextLTPro-LightItalic.otf in Resources */,
+				82DD1E30208B877C00D8F86B /* Main.storyboard in Resources */,
+				82ABB33A208C684A006DA834 /* DINNextRoundedLTPro-Regular.otf in Resources */,
+				82ABB344208C684A006DA834 /* DIN-BoldAlternate.otf in Resources */,
+				82ABB347208C684A006DA834 /* DINPro.otf in Resources */,
+				82ABB323208C684A006DA834 /* DINCond-Light.otf in Resources */,
+				82ABB34A208C684A006DA834 /* DINCond-BlackAlternate.otf in Resources */,
+				82ABB2FC208C684A006DA834 /* DINNextLTPro-Medium.otf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD1E39208B877E00D8F86B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD1E44208B877F00D8F86B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		097F37D542B8DCAF25934411 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-solution-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CDD10FEBD621FAFE3D10E77 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-solutionUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F8A76C9BF9261D939AEF50E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-solution/Pods-solution-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/TweenKit/TweenKit.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TweenKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-solution/Pods-solution-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		855EF7272C9BDAC0ED5B3B62 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-solution/Pods-solution-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-solution/Pods-solution-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ED34649C2A68FBD9EE920E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-solutionTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82DD1E23208B877C00D8F86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD1E2D208B877C00D8F86B /* ViewController.swift in Sources */,
+				82ABB2A4208C4B66006DA834 /* Mappable.swift in Sources */,
+				82DD1E2B208B877C00D8F86B /* AppDelegate.swift in Sources */,
+				82C5C32E208BF54E0099D95B /* Constants.swift in Sources */,
+				82ABB350208C9181006DA834 /* DetailsViewController.swift in Sources */,
+				82ABB2A2208C4B18006DA834 /* User.swift in Sources */,
+				82ABB2A0208C4B0F006DA834 /* Group.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD1E37208B877E00D8F86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD1E40208B877F00D8F86B /* solutionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82DD1E42208B877F00D8F86B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82DD1E4B208B877F00D8F86B /* solutionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		82DD1E3D208B877E00D8F86B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82DD1E26208B877C00D8F86B /* solution */;
+			targetProxy = 82DD1E3C208B877E00D8F86B /* PBXContainerItemProxy */;
+		};
+		82DD1E48208B877F00D8F86B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 82DD1E26208B877C00D8F86B /* solution */;
+			targetProxy = 82DD1E47208B877F00D8F86B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		82DD1E2E208B877C00D8F86B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DD1E2F208B877C00D8F86B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		82DD1E33208B877E00D8F86B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82DD1E34208B877E00D8F86B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82DD1E4D208B877F00D8F86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		82DD1E4E208B877F00D8F86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82DD1E50208B877F00D8F86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F47390F498AC825EFDC01A /* Pods-solution.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM4QTJN8VU;
+				INFOPLIST_FILE = solution/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberhack.solution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		82DD1E51208B877F00D8F86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E23425FD17F3C2C4DAD2E3E0 /* Pods-solution.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM4QTJN8VU;
+				INFOPLIST_FILE = solution/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberhack.solution;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		82DD1E53208B877F00D8F86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FECBC2244C4E23074DD66C5 /* Pods-solutionTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM4QTJN8VU;
+				INFOPLIST_FILE = solutionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberhack.solutionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/solution.app/solution";
+			};
+			name = Debug;
+		};
+		82DD1E54208B877F00D8F86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5FF02E481A580377DD3B75D /* Pods-solutionTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM4QTJN8VU;
+				INFOPLIST_FILE = solutionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberhack.solutionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/solution.app/solution";
+			};
+			name = Release;
+		};
+		82DD1E56208B877F00D8F86B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBFA264EEA2B339509096FD3 /* Pods-solutionUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM4QTJN8VU;
+				INFOPLIST_FILE = solutionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberhack.solutionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = solution;
+			};
+			name = Debug;
+		};
+		82DD1E57208B877F00D8F86B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D730AAE32CDF7EB28CADAE /* Pods-solutionUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM4QTJN8VU;
+				INFOPLIST_FILE = solutionUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uberhack.solutionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = solution;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82DD1E22208B877C00D8F86B /* Build configuration list for PBXProject "solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD1E4D208B877F00D8F86B /* Debug */,
+				82DD1E4E208B877F00D8F86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD1E4F208B877F00D8F86B /* Build configuration list for PBXNativeTarget "solution" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD1E50208B877F00D8F86B /* Debug */,
+				82DD1E51208B877F00D8F86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD1E52208B877F00D8F86B /* Build configuration list for PBXNativeTarget "solutionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD1E53208B877F00D8F86B /* Debug */,
+				82DD1E54208B877F00D8F86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82DD1E55208B877F00D8F86B /* Build configuration list for PBXNativeTarget "solutionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82DD1E56208B877F00D8F86B /* Debug */,
+				82DD1E57208B877F00D8F86B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82DD1E1F208B877C00D8F86B /* Project object */;
+}

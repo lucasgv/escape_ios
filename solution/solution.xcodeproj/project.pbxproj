@@ -99,6 +99,7 @@
 		82C5C32E208BF54E0099D95B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5C32D208BF54E0099D95B /* Constants.swift */; };
 		82D1613D208EA73C00B8C8DA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1613C208EA73C00B8C8DA /* Event.swift */; };
 		82D1613F208EBA5800B8C8DA /* DPPickerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1613E208EBA5800B8C8DA /* DPPickerManager.swift */; };
+		82D16141208EC51D00B8C8DA /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D16140208EC51D00B8C8DA /* ProfileViewController.swift */; };
 		82DD1E2B208B877C00D8F86B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1E2A208B877C00D8F86B /* AppDelegate.swift */; };
 		82DD1E2D208B877C00D8F86B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1E2C208B877C00D8F86B /* ViewController.swift */; };
 		82DD1E30208B877C00D8F86B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD1E2E208B877C00D8F86B /* Main.storyboard */; };
@@ -224,6 +225,7 @@
 		82C5C32D208BF54E0099D95B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		82D1613C208EA73C00B8C8DA /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		82D1613E208EBA5800B8C8DA /* DPPickerManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPPickerManager.swift; sourceTree = "<group>"; };
+		82D16140208EC51D00B8C8DA /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		82DD1E27208B877C00D8F86B /* solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DD1E2A208B877C00D8F86B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82DD1E2C208B877C00D8F86B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -399,6 +401,7 @@
 				82D1613E208EBA5800B8C8DA /* DPPickerManager.swift */,
 				82DD1E2C208B877C00D8F86B /* ViewController.swift */,
 				82ABB34F208C9181006DA834 /* DetailsViewController.swift */,
+				82D16140208EC51D00B8C8DA /* ProfileViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -809,6 +812,7 @@
 			files = (
 				82D1613D208EA73C00B8C8DA /* Event.swift in Sources */,
 				82DD1E2D208B877C00D8F86B /* ViewController.swift in Sources */,
+				82D16141208EC51D00B8C8DA /* ProfileViewController.swift in Sources */,
 				82ABB2A4208C4B66006DA834 /* Mappable.swift in Sources */,
 				82DD1E2B208B877C00D8F86B /* AppDelegate.swift in Sources */,
 				82C5C32E208BF54E0099D95B /* Constants.swift in Sources */,

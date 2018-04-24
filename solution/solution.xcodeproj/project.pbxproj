@@ -97,6 +97,7 @@
 		82ABB34E208C684A006DA834 /* DINPro-CondMediIta.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82ABB2FA208C684A006DA834 /* DINPro-CondMediIta.otf */; };
 		82ABB350208C9181006DA834 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ABB34F208C9181006DA834 /* DetailsViewController.swift */; };
 		82C5C32E208BF54E0099D95B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C5C32D208BF54E0099D95B /* Constants.swift */; };
+		82D1613D208EA73C00B8C8DA /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82D1613C208EA73C00B8C8DA /* Event.swift */; };
 		82DD1E2B208B877C00D8F86B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1E2A208B877C00D8F86B /* AppDelegate.swift */; };
 		82DD1E2D208B877C00D8F86B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DD1E2C208B877C00D8F86B /* ViewController.swift */; };
 		82DD1E30208B877C00D8F86B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DD1E2E208B877C00D8F86B /* Main.storyboard */; };
@@ -220,6 +221,7 @@
 		82ABB2FA208C684A006DA834 /* DINPro-CondMediIta.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "DINPro-CondMediIta.otf"; sourceTree = "<group>"; };
 		82ABB34F208C9181006DA834 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 		82C5C32D208BF54E0099D95B /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		82D1613C208EA73C00B8C8DA /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		82DD1E27208B877C00D8F86B /* solution.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = solution.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82DD1E2A208B877C00D8F86B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82DD1E2C208B877C00D8F86B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -285,6 +287,7 @@
 				82ABB2A3208C4B65006DA834 /* Mappable.swift */,
 				82ABB29F208C4B0F006DA834 /* Group.swift */,
 				82ABB2A1208C4B18006DA834 /* User.swift */,
+				82D1613C208EA73C00B8C8DA /* Event.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -801,6 +804,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82D1613D208EA73C00B8C8DA /* Event.swift in Sources */,
 				82DD1E2D208B877C00D8F86B /* ViewController.swift in Sources */,
 				82ABB2A4208C4B66006DA834 /* Mappable.swift in Sources */,
 				82DD1E2B208B877C00D8F86B /* AppDelegate.swift in Sources */,

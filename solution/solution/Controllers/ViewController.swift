@@ -13,7 +13,7 @@ import FirebaseDatabase
 import Kingfisher
 import ChameleonFramework
 
-class ViewController: UIViewController , GMSMapViewDelegate{
+class ViewController: UIViewController , GMSMapViewDelegate {
     
     // MARK: - IBOutlets
     
@@ -36,6 +36,7 @@ class ViewController: UIViewController , GMSMapViewDelegate{
     @IBOutlet weak var labelRun: UILabel!
     @IBOutlet weak var imageBike: UIImageView!
     @IBOutlet weak var labelBike: UILabel!
+    @IBOutlet weak var labelTitle: UILabel!
     
     // MARK: - Variables
     
@@ -107,20 +108,37 @@ class ViewController: UIViewController , GMSMapViewDelegate{
             let position = CLLocationCoordinate2D(latitude: group.arrivalLatitude, longitude: group.arrivalLongitude)
             let marker = GMSMarker(position: position)
             marker.isTappable = true
+            let iconView : UIView
+            if group.today && labelTitle.text == "ACONTECENDO HOJE" {
+                iconView = UIView(frame: CGRect(x: 0, y: 0, width: 55, height: 65))
+            } else {
+                iconView = UIView(frame: CGRect(x: 0, y: 0, width: 35, height: 45))
+            }
             
-            let iconView = UIView(frame: CGRect(x: 0, y: 0, width: 55, height: 65))
             iconView.backgroundColor=UIColor.clear
             
             var imageViewForPinMarker : UIImageView
-            imageViewForPinMarker  = UIImageView(frame:CGRect(x: 0, y: 0, width: 55, height: 65))
+            if group.today && labelTitle.text == "ACONTECENDO HOJE" {
+                imageViewForPinMarker  = UIImageView(frame:CGRect(x: 0, y: 0, width: 55, height: 65))
+            } else {
+                imageViewForPinMarker  = UIImageView(frame:CGRect(x: 0, y: 0, width: 35, height: 45))
+            }
             imageViewForPinMarker.image = group.imageIcon
             
             var imageViewForUserProfile : UIImageView
-            imageViewForUserProfile = UIImageView(frame:CGRect(x: 12, y: 10, width: 32, height: 32))
+            if group.today && labelTitle.text == "ACONTECENDO HOJE" {
+                imageViewForUserProfile = UIImageView(frame:CGRect(x: 12, y: 10, width: 32, height: 32))
+            } else {
+                imageViewForUserProfile = UIImageView(frame:CGRect(x: 6, y: 6, width: 24, height: 24))
+            }
             let url = URL(string: group.imageFolder)
             imageViewForUserProfile.kf.setImage(with: url)
             imageViewForUserProfile.layer.masksToBounds = true
-            imageViewForUserProfile.layer.cornerRadius = 16
+            if group.today && labelTitle.text == "ACONTECENDO HOJE" {
+                imageViewForUserProfile.layer.cornerRadius = 12
+            } else {
+                imageViewForUserProfile.layer.cornerRadius = 16
+            }
             
             iconView.addSubview(imageViewForUserProfile)
             iconView.addSubview(imageViewForPinMarker)

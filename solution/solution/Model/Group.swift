@@ -18,6 +18,7 @@ struct Group: Mappable {
     var imageProfile: String
     var imageFolder: String
     var participants: [Int]?
+    var events: [Event]?
     var category: String
     var date: Date?
     var departureName: String
@@ -33,6 +34,7 @@ struct Group: Mappable {
     var level: String
     var whatsapp: String
     var instagram: String
+    var today: Bool
     var categoryImage: UIImage
     var imageIcon: UIImage
     var degradeColor: UIColor
@@ -40,6 +42,7 @@ struct Group: Mappable {
     init(mapper: Mapper) {
         self.id = mapper.keyPath("id")
         self.name = mapper.keyPath("name")
+        self.today = mapper.keyPath("today")
         self.description = mapper.keyPath("description")
         self.endTime = mapper.keyPath("endTime")
         self.startTime = mapper.keyPath("startTime")
@@ -64,6 +67,7 @@ struct Group: Mappable {
         self.level = mapper.keyPath("level")
         self.whatsapp = mapper.keyPath("whatsapp")
         self.instagram = mapper.keyPath("instagram")
+        self.events = mapper.keyPath("events")
         if self.category == "corrida" {
             self.imageIcon = #imageLiteral(resourceName: "MapaCorrendo")
             self.categoryImage = #imageLiteral(resourceName: "correr")

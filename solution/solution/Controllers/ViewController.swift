@@ -22,7 +22,6 @@ class ViewController: UIViewController , GMSMapViewDelegate {
     @IBOutlet var viewLineDetailPin: UIView!
     @IBOutlet weak var buttonViewDetailPinConstraint: NSLayoutConstraint!
     @IBOutlet weak var labelName: UILabel!
-    @IBOutlet weak var labelParticipants: UILabel!
     @IBOutlet weak var labelDeparture: UILabel!
     @IBOutlet weak var labelArrival: UILabel!
     @IBOutlet weak var labelTimeArrival: UILabel!
@@ -37,6 +36,7 @@ class ViewController: UIViewController , GMSMapViewDelegate {
     @IBOutlet weak var imageBike: UIImageView!
     @IBOutlet weak var labelBike: UILabel!
     @IBOutlet weak var labelTitle: UILabel!
+    @IBOutlet weak var labelGroupName: UILabel!
     
     // MARK: - Variables
     
@@ -169,12 +169,25 @@ class ViewController: UIViewController , GMSMapViewDelegate {
     }
     
     func setGroupInfo() {
-        self.labelName.text = self.selectedGroup.name
-        self.labelParticipants.text = String(format: "%i participantes",(self.selectedGroup.participants?.count)!)
+        self.labelGroupName.text = String(format: "do grupo %@",self.selectedGroup.name)
         self.labelDeparture.text = self.selectedGroup.departureName
         self.labelArrival.text = self.selectedGroup.arrivalName
         self.viewLineDetailPin.backgroundColor = self.selectedGroup.degradeColor
         self.imageViewMan.image = self.selectedGroup.categoryImage
+        
+        if (self.selectedGroup.events?.count)! >= 2 {
+            if self.selectedGroup.today && labelTitle.text == "ACONTECENDO HOJE" {
+               self.labelName.text = self.selectedGroup.events![0].name
+            } else if self.selectedGroup.today && labelTitle.text == "PRÓXIMA SEMANA" {
+               self.labelName.text = self.selectedGroup.events![1].name
+            } else if self.selectedGroup.today && labelTitle.text == "ACONTECENDO HOJE" {
+                self.labelName.text = self.selectedGroup.events![1].name
+            } else if self.selectedGroup.today && labelTitle.text == "PRÓXIMA SEMANA" {
+                self.labelName.text = self.selectedGroup.events![2].name
+            }
+        } else {
+            self.labelName.text = self.selectedGroup.name
+        }
     }
     
     // MARK: - GMSMapView delegate

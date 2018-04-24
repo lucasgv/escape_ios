@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ProfileViewController: UIViewController {
+class ProfileViewController: UIViewController, UIScrollViewDelegate {
 
     @IBOutlet weak var viewDetails: UIView!
     @IBOutlet weak var scrollView: UIScrollView!

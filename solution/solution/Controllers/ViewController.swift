@@ -111,6 +111,8 @@ class ViewController: UIViewController , GMSMapViewDelegate {
             let iconView : UIView
             if group.today && labelTitle.text == "ACONTECENDO HOJE" {
                 iconView = UIView(frame: CGRect(x: 0, y: 0, width: 55, height: 65))
+            } else if group.today == false && labelTitle.text == "PRÓXIMA SEMANA" {
+                iconView = UIView(frame: CGRect(x: 0, y: 0, width: 55, height: 65))
             } else {
                 iconView = UIView(frame: CGRect(x: 0, y: 0, width: 35, height: 45))
             }
@@ -120,6 +122,8 @@ class ViewController: UIViewController , GMSMapViewDelegate {
             var imageViewForPinMarker : UIImageView
             if group.today && labelTitle.text == "ACONTECENDO HOJE" {
                 imageViewForPinMarker  = UIImageView(frame:CGRect(x: 0, y: 0, width: 55, height: 65))
+            } else if group.today == false && labelTitle.text == "PRÓXIMA SEMANA" {
+                imageViewForPinMarker  = UIImageView(frame:CGRect(x: 0, y: 0, width: 55, height: 65))
             } else {
                 imageViewForPinMarker  = UIImageView(frame:CGRect(x: 0, y: 0, width: 35, height: 45))
             }
@@ -128,16 +132,20 @@ class ViewController: UIViewController , GMSMapViewDelegate {
             var imageViewForUserProfile : UIImageView
             if group.today && labelTitle.text == "ACONTECENDO HOJE" {
                 imageViewForUserProfile = UIImageView(frame:CGRect(x: 12, y: 10, width: 32, height: 32))
+            } else if group.today == false && labelTitle.text == "PRÓXIMA SEMANA" {
+                imageViewForUserProfile = UIImageView(frame:CGRect(x: 12, y: 10, width: 32, height: 32))
             } else {
-                imageViewForUserProfile = UIImageView(frame:CGRect(x: 6, y: 6, width: 24, height: 24))
+                imageViewForUserProfile = UIImageView(frame:CGRect(x: 6, y: 6, width: 22, height: 22))
             }
             let url = URL(string: group.imageFolder)
             imageViewForUserProfile.kf.setImage(with: url)
             imageViewForUserProfile.layer.masksToBounds = true
             if group.today && labelTitle.text == "ACONTECENDO HOJE" {
-                imageViewForUserProfile.layer.cornerRadius = 12
-            } else {
                 imageViewForUserProfile.layer.cornerRadius = 16
+            } else if group.today == false && labelTitle.text == "PRÓXIMA SEMANA" {
+                imageViewForUserProfile.layer.cornerRadius = 16
+            } else {
+                imageViewForUserProfile.layer.cornerRadius = 11
             }
             
             iconView.addSubview(imageViewForUserProfile)
@@ -211,6 +219,17 @@ class ViewController: UIViewController , GMSMapViewDelegate {
     }
     
     // MARK: - IBOutlets
+    
+    @IBAction func pressFilter(_ sender: Any) {
+        
+        let values = ["ACONTECENDO HOJE", "PRÓXIMA SEMANA"]
+        DPPickerManager.shared.showPicker(title: "Filtros", selected: self.labelTitle.text, strings: values) { (value, index, cancel) in
+            if !cancel {
+                self.labelTitle.text = value
+            }
+            self.plotPins()
+        }
+    }
     
     @IBAction func pressSwipe(_ sender: Any) {
         self.performSegue(withIdentifier: "SegueDetails", sender: self)
